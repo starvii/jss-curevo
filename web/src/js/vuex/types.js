@@ -1,0 +1,22 @@
+// mutation
+export const SHOW_EDIT_DIALOG = 'SHOW_EDIT_DIALOG';
+export const SHOW_VIEW_DIALOG = 'SHOW_VIEW_DIALOG';
+export const SHOW_LIST_WINDOW = 'SHOW_LIST_WINDOW';
+export const SHOW_ERROR_DIALOG = 'SHOW_ERROR_DIALOG';
+export const REFRESH_LIST = 'REFRESH_LIST';
+export const SET_FUNCTIONS = 'SET_FUNCTIONS';
+
+// action
+export const CREATE_ENTITY = 'CREATE_ENTITY';
+export const MODIFY_ENTITY = 'MODIFY_ENTITY';
+export const REMOVE_ENTITY = 'REMOVE_ENTITY';
+
+
+// getter
+export const EDIT_DIALOG_STATUS = 'EDIT_DIALOG_STATUS';
+export const VIEW_DIALOG_STATUS = 'VIEW_DIALOG_STATUS';
+export const ERROR_DIALOG_STATUS = 'ERROR_DIALOG_STATUS';
+
+export const EDIT_ENTITY = 'EDIT_ENTITY';
+export const VIEW_ENTITY = 'VIEW_ENTITY';
+

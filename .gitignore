@@ -1,0 +1,9 @@
+*.pyc
+__pycache__
+
+
+.idea
+/api/db.sqlite
+node_modules
+/web/npm-debug.log
+dist
