@@ -12,6 +12,8 @@ const webpackConfig = {
     resolve: require('./webpack-config/resolve.config'),
 
     plugins: require('./webpack-config/plugins.dev.config'),
+
+    externals: require('./webpack-config/externals.config'),
 };
 
 exports = module.exports = webpackConfig;
