@@ -5,5 +5,6 @@ exports = module.exports = {
     'vue':'Vue',
     'vue-router': 'VueRouter',
     'vue-resource': 'VueResource',
-    'vuex': 'Vuex'
+    'vuex': 'Vuex',
+    'object-hash': 'objectHash',
 };

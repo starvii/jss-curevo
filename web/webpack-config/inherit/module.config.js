@@ -9,7 +9,8 @@ exports = module.exports = {
                 loader: 'vue-loader',
                 options: {
                     loaders: {
-                        js: 'babel-loader?{"presets":["es2015", "stage-3"],"plugins": ["transform-runtime", "transform-object-rest-spread"]}',
+                        // js: 'babel-loader?{"presets":["es2015", "stage-3"],"plugins": ["transform-runtime", "transform-object-rest-spread"]}',
+                        js: 'babel-loader?{"presets":["env"],"plugins": ["transform-runtime", "transform-object-rest-spread"]}',
                         css: 'vue-style-loader!css-loader'
                     }
                 }
@@ -23,7 +24,8 @@ exports = module.exports = {
                 {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['es2015', 'stage-3'],
+                        // presets: ['es2015', 'stage-3'],
+                        presets: ['env'],
                         plugins: ["transform-runtime", 'transform-object-rest-spread'],
                         comments: debug,
                     }
@@ -63,6 +65,6 @@ exports = module.exports = {
         {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10240&mimetype=application/octet-stream"},
         {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file-loader"},
         {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10240&mimetype=image/svg+xml"},
-        {test: require.resolve('jquery'), loader: 'expose-loader?jQuery'},
+        // {test: require.resolve('jquery'), loader: 'expose-loader?jQuery'},
     ],
 };

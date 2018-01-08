@@ -1,10 +1,10 @@
-<!-- 遗传算法整个设置流程 -->
 <template>
     <div class="container">
-        <TopMenu></TopMenu>
-        <div id="wrapper">
-            <router-view></router-view>
-        </div>
+        <h1>HelloWorld!</h1>
+        <!--<TopMenu></TopMenu>-->
+        <!--<div id="wrapper">-->
+            <!--<router-view></router-view>-->
+        <!--</div>-->
     </div>
 </template>
 

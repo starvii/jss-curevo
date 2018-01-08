@@ -6,8 +6,8 @@ const webpack_resolve = {
     ],
     alias: {
         'jquery': 'jquery/dist/jquery.js',
-        'semantic-css': 'semantic-ui/src/semantic.less',
-        'semantic-js': 'semantic-ui/dist/semantic.js',
+        // 'semantic-css': 'semantic-ui/src/semantic.less',
+        // 'semantic-js': 'semantic-ui/dist/semantic.js',
     },
 };
 

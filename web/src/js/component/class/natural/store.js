@@ -127,7 +127,7 @@ const actions = {
         }
         commit(SHOW_LIST_WINDOW);
     },
-    async [ACTION_REMOVE_ENTITY] ({commit}, payload) {
+    async [REMOVE_ENTITY] ({commit}, payload) {
         if ('undefined' !== typeof(payload) && 'undefined' !== typeof(payload.entity)) {
             const entity = payload.entity;
             try {
