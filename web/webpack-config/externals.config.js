@@ -1,10 +1,9 @@
 const dirVars = require('./base/dir-vars.config');
 
 exports = module.exports = {
-    'jquery': 'jQuery',
     'vue':'Vue',
+    'vuetify': 'Vuetify',
     'vue-router': 'VueRouter',
     'vue-resource': 'VueResource',
     'vuex': 'Vuex',
-    'object-hash': 'objectHash',
 };

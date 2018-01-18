@@ -13,7 +13,7 @@ exports = module.exports = {
     // 将 api 服务器 代理至本地
     proxy: {
         '/api': {
-            target: 'http://127.0.0.1',
+            target: 'http://10.0.0.3:9001',
             secure: false,
         },
     },

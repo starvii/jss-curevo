@@ -7,3 +7,6 @@ __pycache__
 node_modules
 /web/npm-debug.log
 dist
+/api/bin
+/api/pkg
+/api/src/github.com
